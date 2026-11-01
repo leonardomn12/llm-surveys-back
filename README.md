@@ -63,15 +63,3 @@ Cubren la validación del archivo (extensión, vacío, tamaño) y el esquema de 
 ## Ejemplos
 
 La carpeta `examples/` contiene cuestionarios inventados en PDF (italiano), Word (español) y Excel (inglés), junto con el JSON resultante.
-
-<!-- ## Supuestos
-
-- Los tipos de ítem son: `escala_likert`, `seleccion_multiple`, `verdadero_falso`, `desarrollo` y `emparejamiento`.
-- **Emparejamiento:** el esquema base no lo define, así que se agregaron dos campos a cada ítem: `premisas` (primera columna) y `pares_correctos` (por ejemplo `{"premisa": "1", "alternativa": "b"}`). Las opciones de la segunda columna van en `alternativas`. En los demás tipos estos campos van vacíos.
-- **Verdadero/falso:** las alternativas se normalizan con los valores `V` y `F`.
-- `respuesta_correcta` solo se completa si el documento la indica (por ejemplo en una clave de respuestas); el modelo no resuelve los ítems.
-- Si una escala se indica una sola vez para un grupo de ítems, se repite en cada ítem.
-- Si el documento no tiene preguntas, la API responde 422 en lugar de un resultado vacío.
-- El idioma lo detecta el modelo y se devuelve como código ISO (`it`, `es`, `en`, etc.).
-- Los archivos se envían directamente a Gemini y se borran de su almacenamiento al terminar.
-- Los documentos de prueba son inventados; no se usa material de tests comerciales ni datos personales. -->
