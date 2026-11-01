@@ -1,0 +1,119 @@
+{
+  "idioma": "it",
+  "titulo": "Questionario di esempio: benessere e ragionamento",
+  "items": [
+    {
+      "numero": 1,
+      "enunciado": "Mi preoccupo eccessivamente per cose di poca importanza.",
+      "tipo": "escala_likert",
+      "premisas": [],
+      "alternativas": [
+        { "valor": 0, "texto": "Mai" },
+        { "valor": 1, "texto": "A volte" },
+        { "valor": 2, "texto": "Spesso" },
+        { "valor": 3, "texto": "Sempre" }
+      ],
+      "respuesta_correcta": null,
+      "pares_correctos": []
+    },
+    {
+      "numero": 2,
+      "enunciado": "Faccio fatica a rilassarmi dopo una giornata di lavoro.",
+      "tipo": "escala_likert",
+      "premisas": [],
+      "alternativas": [
+        { "valor": 0, "texto": "Mai" },
+        { "valor": 1, "texto": "A volte" },
+        { "valor": 2, "texto": "Spesso" },
+        { "valor": 3, "texto": "Sempre" }
+      ],
+      "respuesta_correcta": null,
+      "pares_correctos": []
+    },
+    {
+      "numero": 3,
+      "enunciado": "Mi sento a mio agio quando devo parlare in pubblico.",
+      "tipo": "escala_likert",
+      "premisas": [],
+      "alternativas": [
+        { "valor": 0, "texto": "Mai" },
+        { "valor": 1, "texto": "A volte" },
+        { "valor": 2, "texto": "Spesso" },
+        { "valor": 3, "texto": "Sempre" }
+      ],
+      "respuesta_correcta": null,
+      "pares_correctos": []
+    },
+    {
+      "numero": 4,
+      "enunciado": "Quale numero completa la serie: 2, 4, 8, 16, ...?",
+      "tipo": "seleccion_multiple",
+      "premisas": [],
+      "alternativas": [
+        { "valor": "A", "texto": "18" },
+        { "valor": "B", "texto": "24" },
+        { "valor": "C", "texto": "32" },
+        { "valor": "D", "texto": "30" }
+      ],
+      "respuesta_correcta": "C",
+      "pares_correctos": []
+    },
+    {
+      "numero": 5,
+      "enunciado": "Quale parola e' il contrario di \"scarso\"?",
+      "tipo": "seleccion_multiple",
+      "premisas": [],
+      "alternativas": [
+        { "valor": "A", "texto": "Raro" },
+        { "valor": "B", "texto": "Abbondante" },
+        { "valor": "C", "texto": "Piccolo" },
+        { "valor": "D", "texto": "Lento" }
+      ],
+      "respuesta_correcta": "B",
+      "pares_correctos": []
+    },
+    {
+      "numero": 6,
+      "enunciado": "Vero o falso: un triangolo equilatero ha tre angoli uguali.",
+      "tipo": "verdadero_falso",
+      "premisas": [],
+      "alternativas": [
+        { "valor": "V", "texto": "Vero" },
+        { "valor": "F", "texto": "Falso" }
+      ],
+      "respuesta_correcta": "V",
+      "pares_correctos": []
+    },
+    {
+      "numero": 7,
+      "enunciado": "Abbini ogni paese alla sua capitale:",
+      "tipo": "emparejamiento",
+      "premisas": [
+        { "valor": "1", "texto": "Italia" },
+        { "valor": "2", "texto": "Spagna" },
+        { "valor": "3", "texto": "Francia" }
+      ],
+      "alternativas": [
+        { "valor": "a", "texto": "Parigi" },
+        { "valor": "b", "texto": "Roma" },
+        { "valor": "c", "texto": "Madrid" }
+      ],
+      "respuesta_correcta": null,
+      "pares_correctos": [
+        { "premisa": "1", "alternativa": "b" },
+        { "premisa": "2", "alternativa": "c" },
+        { "premisa": "3", "alternativa": "a" }
+      ]
+    },
+    {
+      "numero": 8,
+      "enunciado": "Descriva una situazione recente in cui si e' sentito sotto pressione.",
+      "tipo": "desarrollo",
+      "premisas": [],
+      "alternativas": [],
+      "respuesta_correcta": null,
+      "pares_correctos": []
+    }
+  ],
+  "total_items": 8
+}

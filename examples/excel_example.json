@@ -1,0 +1,186 @@
+{
+  "titulo": "Sample questionnaire: workplace attitudes and general knowledge",
+  "idioma": "en",
+  "items": [
+    {
+      "numero": 1,
+      "enunciado": "I feel motivated when I start my workday.",
+      "tipo": "escala_likert",
+      "premisas": [],
+      "alternativas": [
+        {
+          "valor": 0,
+          "texto": "0 - Never"
+        },
+        {
+          "valor": 1,
+          "texto": "1 - Sometimes"
+        },
+        {
+          "valor": 2,
+          "texto": "2 - Often"
+        },
+        {
+          "valor": 3,
+          "texto": "3 - Always"
+        }
+      ],
+      "respuesta_correcta": null,
+      "pares_correctos": []
+    },
+    {
+      "numero": 2,
+      "enunciado": "I find it easy to ask colleagues for help.",
+      "tipo": "escala_likert",
+      "premisas": [],
+      "alternativas": [
+        {
+          "valor": 0,
+          "texto": "0 - Never"
+        },
+        {
+          "valor": 1,
+          "texto": "1 - Sometimes"
+        },
+        {
+          "valor": 2,
+          "texto": "2 - Often"
+        },
+        {
+          "valor": 3,
+          "texto": "3 - Always"
+        }
+      ],
+      "respuesta_correcta": null,
+      "pares_correctos": []
+    },
+    {
+      "numero": 3,
+      "enunciado": "What is the capital of Canada?",
+      "tipo": "seleccion_multiple",
+      "premisas": [],
+      "alternativas": [
+        {
+          "valor": "A",
+          "texto": "Toronto"
+        },
+        {
+          "valor": "B",
+          "texto": "Ottawa"
+        },
+        {
+          "valor": "C",
+          "texto": "Vancouver"
+        },
+        {
+          "valor": "D",
+          "texto": "Montreal"
+        }
+      ],
+      "respuesta_correcta": "B",
+      "pares_correctos": []
+    },
+    {
+      "numero": 4,
+      "enunciado": "Which number is a prime number?",
+      "tipo": "seleccion_multiple",
+      "premisas": [],
+      "alternativas": [
+        {
+          "valor": "A",
+          "texto": "21"
+        },
+        {
+          "valor": "B",
+          "texto": "27"
+        },
+        {
+          "valor": "C",
+          "texto": "29"
+        },
+        {
+          "valor": "D",
+          "texto": "33"
+        }
+      ],
+      "respuesta_correcta": "C",
+      "pares_correctos": []
+    },
+    {
+      "numero": 5,
+      "enunciado": "True or false: the Pacific is the largest ocean on Earth.",
+      "tipo": "verdadero_falso",
+      "premisas": [],
+      "alternativas": [
+        {
+          "valor": "V",
+          "texto": "True"
+        },
+        {
+          "valor": "F",
+          "texto": "False"
+        }
+      ],
+      "respuesta_correcta": "V",
+      "pares_correctos": []
+    },
+    {
+      "numero": 6,
+      "enunciado": "Match each author with a work: 1. Orwell  2. Austen  3. Shelley  (a. Frankenstein  b. 1984  c. Emma)",
+      "tipo": "emparejamiento",
+      "premisas": [
+        {
+          "valor": "1",
+          "texto": "Orwell"
+        },
+        {
+          "valor": "2",
+          "texto": "Austen"
+        },
+        {
+          "valor": "3",
+          "texto": "Shelley"
+        }
+      ],
+      "alternativas": [
+        {
+          "valor": "a",
+          "texto": "Frankenstein"
+        },
+        {
+          "valor": "b",
+          "texto": "1984"
+        },
+        {
+          "valor": "c",
+          "texto": "Emma"
+        }
+      ],
+      "respuesta_correcta": null,
+      "pares_correctos": [
+        {
+          "premisa": "1",
+          "alternativa": "b"
+        },
+        {
+          "premisa": "2",
+          "alternativa": "c"
+        },
+        {
+          "premisa": "3",
+          "alternativa": "a"
+        }
+      ]
+    },
+    {
+      "numero": 7,
+      "enunciado": "Describe a time when you had to resolve a conflict within a team.",
+      "tipo": "desarrollo",
+      "premisas": [],
+      "alternativas": [],
+      "respuesta_correcta": null,
+      "pares_correctos": []
+    }
+  ],
+  "total_items": 7
+}

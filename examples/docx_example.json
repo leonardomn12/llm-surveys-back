@@ -1,0 +1,204 @@
+{
+  "titulo": "Cuestionario de ejemplo: hábitos de estudio y lógica",
+  "idioma": "es",
+  "items": [
+    {
+      "numero": 1,
+      "enunciado": "Planifico mi tiempo antes de comenzar a estudiar.",
+      "tipo": "escala_likert",
+      "premisas": [],
+      "alternativas": [
+        {
+          "valor": 1,
+          "texto": "Totalmente en desacuerdo"
+        },
+        {
+          "valor": 2,
+          "texto": "En desacuerdo"
+        },
+        {
+          "valor": 3,
+          "texto": "De acuerdo"
+        },
+        {
+          "valor": 4,
+          "texto": "Totalmente de acuerdo"
+        }
+      ],
+      "respuesta_correcta": null,
+      "pares_correctos": []
+    },
+    {
+      "numero": 2,
+      "enunciado": "Me distraigo con facilidad cuando trabajo en casa.",
+      "tipo": "escala_likert",
+      "premisas": [],
+      "alternativas": [
+        {
+          "valor": 1,
+          "texto": "Totalmente en desacuerdo"
+        },
+        {
+          "valor": 2,
+          "texto": "En desacuerdo"
+        },
+        {
+          "valor": 3,
+          "texto": "De acuerdo"
+        },
+        {
+          "valor": 4,
+          "texto": "Totalmente de acuerdo"
+        }
+      ],
+      "respuesta_correcta": null,
+      "pares_correctos": []
+    },
+    {
+      "numero": 3,
+      "enunciado": "Repaso los apuntes al final de cada semana.",
+      "tipo": "escala_likert",
+      "premisas": [],
+      "alternativas": [
+        {
+          "valor": 1,
+          "texto": "Totalmente en desacuerdo"
+        },
+        {
+          "valor": 2,
+          "texto": "En desacuerdo"
+        },
+        {
+          "valor": 3,
+          "texto": "De acuerdo"
+        },
+        {
+          "valor": 4,
+          "texto": "Totalmente de acuerdo"
+        }
+      ],
+      "respuesta_correcta": null,
+      "pares_correctos": []
+    },
+    {
+      "numero": 4,
+      "enunciado": "¿Cuál es el resultado de 7 × 8?",
+      "tipo": "seleccion_multiple",
+      "premisas": [],
+      "alternativas": [
+        {
+          "valor": "a",
+          "texto": "54"
+        },
+        {
+          "valor": "b",
+          "texto": "56"
+        },
+        {
+          "valor": "c",
+          "texto": "64"
+        }
+      ],
+      "respuesta_correcta": "b",
+      "pares_correctos": []
+    },
+    {
+      "numero": 5,
+      "enunciado": "¿Qué planeta es conocido como el planeta rojo?",
+      "tipo": "seleccion_multiple",
+      "premisas": [],
+      "alternativas": [
+        {
+          "valor": "a",
+          "texto": "Venus"
+        },
+        {
+          "valor": "b",
+          "texto": "Júpiter"
+        },
+        {
+          "valor": "c",
+          "texto": "Marte"
+        }
+      ],
+      "respuesta_correcta": "c",
+      "pares_correctos": []
+    },
+    {
+      "numero": 6,
+      "enunciado": "Verdadero o falso: el agua hierve a 100 °C al nivel del mar.",
+      "tipo": "verdadero_falso",
+      "premisas": [],
+      "alternativas": [
+        {
+          "valor": "V",
+          "texto": "Verdadero"
+        },
+        {
+          "valor": "F",
+          "texto": "Falso"
+        }
+      ],
+      "respuesta_correcta": "V",
+      "pares_correctos": []
+    },
+    {
+      "numero": 7,
+      "enunciado": "Relacione cada animal con su clase:",
+      "tipo": "emparejamiento",
+      "premisas": [
+        {
+          "valor": "1",
+          "texto": "Delfín"
+        },
+        {
+          "valor": "2",
+          "texto": "Águila"
+        },
+        {
+          "valor": "3",
+          "texto": "Salmón"
+        }
+      ],
+      "alternativas": [
+        {
+          "valor": "a",
+          "texto": "Ave"
+        },
+        {
+          "valor": "b",
+          "texto": "Mamífero"
+        },
+        {
+          "valor": "c",
+          "texto": "Pez"
+        }
+      ],
+      "respuesta_correcta": null,
+      "pares_correctos": [
+        {
+          "premisa": "1",
+          "alternativa": "b"
+        },
+        {
+          "premisa": "2",
+          "alternativa": "a"
+        },
+        {
+          "premisa": "3",
+          "alternativa": "c"
+        }
+      ]
+    },
+    {
+      "numero": 8,
+      "enunciado": "Explique con sus propias palabras cómo organiza una semana de exámenes.",
+      "tipo": "desarrollo",
+      "premisas": [],
+      "alternativas": [],
+      "respuesta_correcta": null,
+      "pares_correctos": []
+    }
+  ],
+  "total_items": 8
+}
