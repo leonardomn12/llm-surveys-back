@@ -2,7 +2,7 @@
 
 API que recibe un cuestionario (PDF, Word o Excel) y devuelve sus ítems y alternativas en un JSON estandarizado, usando Gemini (free tier) para la extracción.
 
-- **Deploy:** _pendiente_
+- **Deploy:** https://llm-surveys-back.onrender.com/
 - **Frontend:** repositorio `llm-surveys-front`
 
 ## Stack
